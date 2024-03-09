@@ -13,7 +13,7 @@
         }
 
         header {
-            background-color: #078111;
+            background-color: #14a0aa;
             color: #fff;
             text-align: center;
             padding: 1em;
@@ -26,6 +26,10 @@
             padding: 20px;
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section:hover{
+            background-color: #d3eaec;
         }
 
         h1, h2, h3 {
@@ -42,7 +46,7 @@
         }
 
         footer {
-            background-color: #078111;
+            background-color: #14a0aa;
             color: #fff;
             text-align: center;
             padding: 1em;
@@ -50,6 +54,22 @@
             bottom: 0;
             width: 100%;
         }
+
+        a:hover{
+            color: rebeccapurple;
+        }
+
+        p{
+            font-size: large;
+        }
+
+        .side-bar{
+            position: fixed;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #5daeb4;
+        }
+
     </style>
 </head>
 <body>
@@ -64,6 +84,21 @@
         <p>LinkedIn: <a href="https://www.linkedin.com/in/thierry-manuel-tchoumkeu-djeumen-2b0b6523a/">Thierry Manuel Tchoumkeu Djeumen</a></p>
     </header>
 
+    <section class="side-bar">
+        <div class="project">
+            <p>Quick Links:</p>
+            <ul>
+                <li><a href="#roundtable">Roundtable</a></li>
+                <li><a href="#anavrin">Anavrin</a></li>
+                <li><a href="#tic_tac_toe">Tic Tac Toe</a></li>
+                <li><a href="#flappy_bird">Flappy Bird</a></li>
+                <li><a href="#platformer">Platforme  Game</a></li>
+                <li><a href="#solid">SOLID</a></li>
+            </ul>
+        </div>
+    </section>
+
+
     <section>
         <h2>About me</h2>
         <p>Newly graduated with a bachelor's degree in computer science and passionate about programming and algorithms. Programming language acquired as skills: Java, Python, HTML, CSS, XML, MQL5 (Trading Expert-Advisor), JavaScript.
@@ -74,7 +109,7 @@
     <section>
         <h2>Projects</h2>
 
-        <div class="project">
+        <div class="project" id="roundtable">
             <h3>Roundtable</h3>
             <img src="Images/Roudtable.png" alt="Capture d'écran du Projet 1">
             <p>
@@ -88,7 +123,7 @@
         </div>
 
 
-        <div class="project">
+        <div class="project" id="anavrin">
             <h3>Anavrin</h3>
             <img src="Images/Anavrin.png" alt="Capture d'écran du Projet 1">
             <p>
@@ -101,7 +136,7 @@
         </div>
 
 
-        <div class="project">
+        <div class="project" id="tic_tac_toe">
             <h3>Tic_Tac_Toe</h3>
             <img src="Images/tic_tac_toe.png" alt="Capture d'écran du Projet 1">
             <p>
@@ -114,7 +149,7 @@
             </p>
         </div>
 
-        <div class="project">
+        <div class="project" id="flappy_bird">
             <h3>Flappy_Bird</h3>
             <img src="Images/flappy_bird.png" alt="Capture d'écran du Projet 1">
             <p>
@@ -128,7 +163,7 @@
         </div>
 
 
-        <div class="project">
+        <div class="project" id="platformer">
             <h3>Platformer Game</h3>
             <img src="Images/platformer.png" alt="Capture d'écran du Projet 1">
             <p>
@@ -140,7 +175,7 @@
         </div>
 
 
-        <div class="project">
+        <div class="project" id="solid">
             <h3>SOLID</h3>
             <img src="Images/Trading_Bot.png" alt="Capture d'écran du Projet 1">
             <p>
@@ -257,7 +292,7 @@
 
         <div class="project">
             <h3>Tools and IDE mastered</h3>
-            <h5>InteliJ, Pycharm, Visual Studio, Visual Studio Code, Microsoft Office, Miro, Figma, GitHub, CapCut, Visual Paradigm</h5>
+            <p>InteliJ, Pycharm, Visual Studio, Visual Studio Code, Microsoft Office, Miro, Figma, GitHub, CapCut, Visual Paradigm</p>
         </div>
     </section>
 
