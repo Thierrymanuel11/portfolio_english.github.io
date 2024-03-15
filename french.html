@@ -69,6 +69,13 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             background-color: #5daeb4;
         }
+
+        .links{
+            width: 35px;
+            height: 35px;
+            margin-left: 2%;
+            margin-right: 2%;
+        }
     </style>
 </head>
 <body>
@@ -78,33 +85,32 @@
         <h1>THIERRY MANUEL TCHOUMKEU DJEUMEN</h1>
         <p>PORTFOLIO</p>
         <p>Montréal, QUEBEC, Canada</p>
-        <p>Lien GitHub: <a href="https://github.com/Thierrymanuel11">Thierrymanuel11</a></p>
-        <p>X: <a href="https://twitter.com/D_man3012">D_man3012</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/thierry-manuel-tchoumkeu-djeumen-2b0b6523a/">Thierry Manuel Tchoumkeu Djeumen</a></p>
+        <a href="https://github.com/Thierrymanuel11"><img src="Images/github.svg" alt="Github" class="links"></a>
+        <a href="https://twitter.com/D_man3012"><img src="Images/X_logo_2023_original.svg" alt="X" class="links"></a>
+        <a href="https://www.linkedin.com/in/thierry-manuel-tchoumkeu-djeumen-2b0b6523a/"><img src="Images/linkedin.svg" alt="LinkdIn" class="links"></a>
     </header>
 
     <section class="side-bar">
         <div class="project">
             <p>Liens rapides:</p>
             <ul>
-                <li><a href="#roundtable">Roundtable</a></li>
-                <li><a href="#anavrin">Anavrin</a></li>
-                <li><a href="#tic_tac_toe">Tic Tac Toe</a></li>
-                <li><a href="#flappy_bird">Flappy Bird</a></li>
-                <li><a href="#platformer">Jeu de platforme</a></li>
-                <li><a href="#solid">SOLID</a></li>
+                <li><a href="#about_me">A propos de moi</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#others">Autres</a></li>
             </ul>
         </div>
     </section>
 
     <section>
-        <h2>À propos de moi</h2>
+        <h2 id="about_me">À propos de moi</h2>
         <p>Bachelier en informatique et passionné de programation et d’algorithmique. Language de Programmation aquis comme compétene: Java, Python, HTML, CSS, XML, MQL5 (Trading Expert-Advisor), JavaScript.
             A la recherche d'un Poste en temps que Junior Software Developper ou d'un stage a temps plein dans le domaine afin de dévélopper mes compétences et aquérir un savoir-faire sur le marché de l'emploi proféssionel.
         </p>
     </section>
     <!-- Projets Personnel -->
-    <section>
+    <section id="projects">
         <h2>Projets</h2>
 
         <div class="project">
@@ -196,7 +202,7 @@
 
     <!-- Education -->
 
-    <section>
+    <section id="education">
         <h2>Education</h2>
         <div class="project">
             <h3>Baccalauréat en informatique</h3>
@@ -247,17 +253,32 @@
 
     <!-- Experience Professionelle -->
 
-    <section>
+    <section id="experience">
         <h2>Expérience Proféssionelle</h2>
 
         <div class="project">
-            <h3>Consultant en informatique</h3>
+            <h3>Junior Trading Software Developer</h3>
+            <h5>Holmitech</h5>
+            <h5>Douala, Cameroun</h5>
+            <ul>
+                <li>Aout 2023 – Maintenant</li>
+                <li>Développé et maintenu des applications logicielles nouvelles et existantes en mettant l'accent sur l'expérience utilisateur et les performances optimales des programmes et des systèmes ; basé sur un algorithme de Trading à implémenter avec le langage MQL5.</li>
+                <li>A dû travailler avec certains langages spécifiques tels que XML pour aider l’entreprise dans les rapports</li>
+                <li>Travailler avec les utilisateurs finaux de l'entreprise pour vérifier et valider la logique et les besoins, et appliquer les meilleures pratiques de développement et les principes de conception pour créer des applications, des formulaires personnalisés, des flux de travail, des personnalisations et des bases de données d'entreprise faciles à utiliser et à maintenir, tout en garantissant la sécurité et les données, les normes de confidentialité sont respectées.</li>
+            </ul>
+        </div>
+
+
+        <div class="project">
+            <h3>Spécialiste du support informatique/Technicien du système de paie</h3>
             <h5>Sekurcorp</h5>
             <h5>Montréal, QUEBEC, Canada</h5>
             <ul>
-                <li>Decembre 2022 – Aout 2023</li>
-                <li>Aider la compagnie en tant que consultant dans leurs système de paiement</li>
-                <li>A dû travailler avec certains langages spécifiques tels que XML pour aider l’entreprise dans les rapports</li>
+                <li>Decembre 2022 – Decembre 2023</li>
+                <li>Aider les utilisateurs avec des problèmes de matériel informatique et de logiciels, en personne et virtuellement ; problèmes documentés, suivis et surveillés pour garantir une résolution rapide ; création et mise à jour de la documentation et des guides pour les utilisateurs finaux.</li>
+                <li>Trié et remonté les demandes de support, les problèmes d'infrastructure et les demandes d'amélioration des clients, en particulier dans les situations où un dépannage avancé et un support d'application étaient nécessaires pour résoudre les problèmes des utilisateurs finaux.</li>
+                <li>Collaboré avec d'autres membres de l'équipe informatique sur une gamme de tâches, telles que la configuration de nouveaux emplacements, l'installation, le test et la mise à niveau du matériel, des logiciels, des ordinateurs et des périphériques, des interfaces et des câbles réseau.</li>
+                <li>Gérer les listes de distribution, les utilisateurs et les courriels dans un environnement de serveur Exchange ; maintenu le suivi des actifs du matériel et des logiciels et lancé des demandes de remplacement pour garantir la disponibilité conformément à la politique.</li>
             </ul>
         </div>
 
@@ -288,7 +309,7 @@
 
     </section>
 
-    <section>
+    <section id="others">
 
         <div class="project">
             <h3>Outils et IDE en maitrise</h3>
@@ -301,6 +322,9 @@
         <h3>Contactez-moi</h3>
         <p>Adresse Mail: <a href="mailto:thierrymanuel8@gmail.com">thierrymanuel8@gmail.com</a></p>
         <p>Telephone: 438-988-0724</p>
+        <a href="https://github.com/Thierrymanuel11"><img src="Images/github.svg" alt="Github" class="links"></a>
+        <a href="https://twitter.com/D_man3012"><img src="Images/X_logo_2023_original.svg" alt="X" class="links"></a>
+        <a href="https://www.linkedin.com/in/thierry-manuel-tchoumkeu-djeumen-2b0b6523a/"><img src="Images/linkedin.svg" alt="LinkdIn" class="links"></a>
     </footer>
 
 </body>
